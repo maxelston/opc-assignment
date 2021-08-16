@@ -1,0 +1,29 @@
+{
+  "name": "opc-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node ./src/index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@types/supertest": "^2.0.11",
+    "eslint": "^7.32.0",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12",
+    "supertest": "^6.1.5"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.15.3",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
