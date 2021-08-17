@@ -1,13 +1,21 @@
 # OPC Assignment
 
+Clone the respo
+```
+git clone https://github.com/maxelston/opc-assignment
+```
+
+Install dependencies
 ```
 npm install
 ```
 
+Run the app
 ```
-npm test
+npm run dev
 ```
 
+Run the tests
 ```
-npm start dev
+npm test
 ```
